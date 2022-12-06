@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+.abc1{
+    border:2px solid aliceblue;
+}
+.card1{
+    color:black;
+    border:2px solid aliceblue;
+    height:10vh;
+}
+.abc2{
+    border:1px solid lightgray;
+    height:25vh;
+    width:99%;
+    position: relative;
+    left:25px;
+}
+.btn1{
+    height:10vh;
+    width:25vw;
+    background-color: green;
+    color:white;
+    position: relative;
+    left:480px;
+    bottom:-30px;
+}
+.card3{
+    height:85vh;
+    border:1px solid antiquewhite;
+    width:35vw;
+    position: relative;
+    left:450px;
+    bottom:-50px;
+    background-color: aliceblue;
+}
+.cross1{
+    position: relative;
+    left:450px;
+}
+.sign{
+    margin-top: -70px;
+    font-size:60px;
+}
+.btn2{
+    background-color: lightseagreen;
+    color: white;
+    height:8vh;
+    width:30vw;
+    position: relative;
+    bottom:-55px;
+    left:30px;
+}
+.xyz{
+    position: relative;
+    
+    left: 98px;
+    top: -26px;
+    height:9vh;
+    width:5vw;
+}
+.light-xyz{
+    opacity: 0.5;
+}
+@media  screen and (max-width:450px){
+    .add{
+        margin-left: 80px;
+         font-size: 25px;
+    }
+    .sign{
+        font-size: 35px;
+        position: relative;
+        bottom:-20px;
+    }
+    .abc2{
+        height: 25vh;
+    }
+    .btn1{
+        position:relative;
+        left:75px;
+        width:40vw;
+        height:10vh;
+    }
+    .light-xyz{
+        position: relative;
+        left:-20px;
+        font-size: 20px;
+    }
+    .light-xyz2{
+        opacity: 0.5;
+    }
+    .card3{
+        position: relative;
+        left:40px;
+        width:70vw;
+        height: 20vh;
+    }
+    .cross1{
+        position: absolute;
+         left:10px;
+         width:10px; 
+    }
+    .btn2{
+        width:60vw;
+        height:8vh;
+        position: relative;
+        left:20px;
+        font-size: 20px;
+    }
+}
+    
